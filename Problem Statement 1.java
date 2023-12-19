@@ -21,7 +21,7 @@ public class MainApp {
         data.decimalNumber = 20.5;
         data.text = "hello";
         
-        data.add(data.number, 5);
+        data.performAddition(data.number, 5);
         data.convertToUpperCase("world");
     }
 }
