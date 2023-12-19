@@ -3,7 +3,7 @@ public class DataContainer {
     double decimalNumber;
     String text;
 
-    public void add(int number1, int number2) {
+    public void performAddition(int number1, int number2) {
         int sum = number1 + number2;
         System.out.println("Result: " + sum);
     }
